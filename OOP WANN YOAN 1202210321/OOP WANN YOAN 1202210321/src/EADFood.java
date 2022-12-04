@@ -8,11 +8,7 @@ public class EADFood {
     }
 }
 
-public class Database {
-    public str InsertMenu;
-    public str ShowMenu;
-    public str SearchMenu;
-}
+
 
 
    
