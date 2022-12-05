@@ -8,7 +8,7 @@ public class Perangkat {
         this.processor = processor;
     }
     public void informasi(){
-        System.out.printf("Perangkat tidak diketahui memiliki drive tipe %s dengan ram sebesar %d dan juga memiliki processor secepat %.2f Ghz.\n",this.drive,this.ram,this.processor);
+        System.out.printf("Perangkat tidak Diketahui Memiliki Drive Tipe %s dengan RAM Sebesar %d dan Juga Memiliki Processor Secepat %.2f Ghz.\n",this.drive,this.ram,this.processor);
     }
 }
 
