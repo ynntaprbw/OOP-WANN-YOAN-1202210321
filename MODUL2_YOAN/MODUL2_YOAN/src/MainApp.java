@@ -1,21 +1,21 @@
 public class MainApp {
-    public class MainApp {
-        public static void main(String[] args) throws Exception {
-            TranportasiAir unknown = new TransportasiAir("tidak diketahui",4,20000);
-            Sampan lap = new Sampan("Sampan", 20, 50000, true);
-            Kapal hp = new kapal("Kapal",50,10000,true);
-            unknown.informasi();
-            System.out.println();
-            kapal.informasi();
-            kapal.berlayar("Game Barbie");
-            kapal.berlayar("akusukabarbie@gmail.com");
-            kapal.berlabuh("akusukabarbie@gmail.com","ilovebarbie@gmail.com");
-            System.out.println();
-            hp.informasi();
-            hp.telfon(6281329);
-            hp.kirimSMS(6281329);
-            hp.kirimSMS(6281215,6281215);
+    public static void main(String[] args) throws Exception {
+        TransportasiAir oke= new TransportasiAir(9, 90000);
+        oke.informasi();
+        oke.berlabuh();
+        oke.berlayar();
     
-        }
+        Kapal a= new Kapal(10,10000, "diesel");
+        a.informasi();
+        a.berlayar();
+        a.berlayar();
+        a.berlabuh();
+       
+
+        Sampan b= new Sampan(10,10000,9);
+        b.informasi();
+        b.berlayar();
+        b.berlabuh();
+        b.berlabuh(2);
     }
-    
+}
